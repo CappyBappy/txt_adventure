@@ -1,0 +1,31 @@
+This will just be for planning my stuff
+So we have the player, and they can pick from one of four characters:
+1. the magician- high magic attack, very low defense, very low regular attack, has healing ability (can pick to heal), moderate wealth
+2. the barbarian- no magic attack, moderate defense, very high regular attack, has berserk ability (one sure kill in game), low wealth
+3. the charlatan- moderate magic attack, low defense, moderate regular attack, has smooth tongue ability (choose the right dialogue option and monster goes away), moderate wealth
+4. the noble knight- moderate magic attack, very high defense, moderate regular attack, has chivalry ability(can mount horse and run away from one battle), high wealth
+They can pick their name and character, and from four weapons (correlating to the characters)
+1. The wand- gives magic attack boost
+2. The club- gives regular attack boost
+3. The poison- allows player to slowly poison one monster to death
+4. The sword and shield- gives small boost to regular attack and defense
+How I will execute-
+Each type of character has their own story
+We have the main program that takes in player name and character choice and simply runs programs based on that
+four different programs for the characters
+one program for attacking monsters
+a monster class with multiple types- initially randomly generated but the boss monster is not
+Items-
+1. Red potion- heals you a bit
+2. Black potion- restores you to full health
+3. Orange potion- magic attack
+4. Green potion- regular attack
+5. Pink potion- reduces defense to zero
+6. Silver potion- instant kill
+7. Gold potion- takes you out of battle
+Each character fights like five monsters till boss man
+So what programs do I need?
+1. Main one that executes the others
+2. one for each character type
+3. a monster class and a method that generates them randomly
+4. Method for battles? Can probaably do that for each character character class
