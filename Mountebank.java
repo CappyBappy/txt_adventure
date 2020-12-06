@@ -1,4 +1,4 @@
-public class Barbarian {
+public class Mountebank {
     String name;
     int health;
     int attack;
@@ -7,12 +7,12 @@ public class Barbarian {
     int defense;
     int mDefense;
     String[] inventory;
-    public Barbarian(String nam) {
+    public Mountebank(String nam) {
         name=nam;
         health=100;
 
     }
-    public void barbarianGame() {
-        System.out.println("The adventure begins for the barbarian. "+name);
+    public void mountebankGame() {
+        System.out.println("The adventure begins for the mountebank. "+name);
     }
 }
